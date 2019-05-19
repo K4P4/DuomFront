@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: ghostwhite;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: 550;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.btn-group button {
+  background-color: ghostwhite;
+  border: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 550;
+  color: gray;
+  padding: 20px 40px;
+  cursor: pointer;
+  float: left;
+  transition: .3s;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.btn-group {
+  padding: 20px 40px;
+}
+
+.btn-group button:hover {
+  color: rebeccapurple;
+}
+
+.lentele {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ivedimoLentele{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+}
+
+.confirm {
+  background-color: #A076FF;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 10px 32px;
+  font-weight: 550;
+  color: whitesmoke;
+  transition: .7s;
+}
+
+.confirm:disabled:hover {
+  background-color: ghostwhite;
+  border: none;
+  font-size: 12px;
+  padding: 10px 32px;
+  font-weight: 550;
+  color: whitesmoke;
+  cursor: default;
+}
+
+.confirm:disabled {
+  background-color: ghostwhite;
+  border: none;
+  font-size: 12px;
+  padding: 10px 32px;
+  font-weight: 550;
+  color: whitesmoke;
+  cursor: default;
+}
+
+.confirm:hover {
+  background-color: #B391F8;
+}
+
+input {
+  background-color: lightgray;
+  padding: 9px 25px;
+  border: none;
+  border-bottom: 1px solid rebeccapurple;
+}
+
+.ivedimoLentele input {
+  background-color: lightgray;
+  padding: 7px 40px;
+  margin: 5px 10px;
+  border: none;
+  border-bottom: 1px solid rebeccapurple;
+  display: block;
+}
+
+.ivedimoLentele label {
+  color: rebeccapurple;
+  font-size: 12px;
+  padding-top: 6px;
+  margin-left: 14px;
+  text-align: left;
+}
+
+h2{
+  font-size: 20px;
+  margin: 10px 10px;
+}
+
+.elementas{
+  padding: 5px 0px;
+}
+
+.elementas h3{
+  font-size: 15px;
+  font-weight:200;
+}
+
+.elementai{
+  padding: 55px 0px;
+}
